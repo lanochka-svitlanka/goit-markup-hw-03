@@ -149,9 +149,12 @@ h1,h2,h3,p{
 }
 
 .hero-button{
- font-style: 700;
+ font-weight: 700;
  font-size: 16px;
  line-height: 1.88;
+
+ margin-top: 30px;
+ padding: 10px 32px 10px 32px;
 
  background-color: var(--accent-color);
  color:var(--primary-white-color);
@@ -160,6 +163,9 @@ h1,h2,h3,p{
 }
 
 /*Our benefits*/
+.benefits{
+  padding-bottom: 0px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -182,7 +188,14 @@ h1,h2,h3,p{
   margin-right: 30px;
 }
 
+.benefits-item{
+  width:calc((100%-90px)/4);
+    
+}
+
 .benefits-item-title{
+ margin-bottom: 10px;
+
  font-weight: 700;
  font-size: 14px;
  line-height:1.14;
@@ -236,8 +249,9 @@ h1,h2,h3,p{
   margin-right: 30px;
 }
 
-.team-item-img{
-  margin-bottom: 30px;
+.card-wrapper{
+  padding-top: 30px;
+  padding-bottom: 30px; 
 }
 
 .team-item-title{
@@ -255,7 +269,6 @@ h1,h2,h3,p{
 
 
 .team-item-text{
- margin-bottom: 30px;
 
  font-weight: 400;
  font-size: 16px;
@@ -326,12 +339,14 @@ h1,h2,h3,p{
 }
 
 .projects-nav-btn{
+
+ padding: 6px 22px 6px 22px;
   
  background-color:#F5F4FA;;
  color: var(--title-text-color);
  cursor: pointer;
 
- font-style:500;
+ font-weight:500;
  font-size: 16px;
  line-height:1.63;
 
@@ -349,7 +364,6 @@ h1,h2,h3,p{
 .projects-items{
   display: flex;
   flex-wrap: wrap;
- 
 }
 
 .projects-item {
@@ -368,11 +382,15 @@ h1,h2,h3,p{
 }
 
 .text-card{
-  padding: 20px 24px;
+  
+  padding: 20px 24px 20px 24px;
+
   border-left: 1px solid #EEEEEE;
   border-right:1px solid #EEEEEE;
   border-bottom:1px solid #EEEEEE;
 }
+
+
 .project-item-title{
  font-weight: 700;
  font-size: 18px;
